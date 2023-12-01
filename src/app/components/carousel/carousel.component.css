@@ -1,0 +1,18 @@
+.bg-img-1 {
+  background-image: url('https://www.kayak.pt/rimg/kimg/d2/44/94b24aa24c1b791f.jpg?width=1366&height=768&crop=true');
+}
+
+.bg-img-2 {
+  background-image: url('https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg');
+}
+
+.bg-img-3 {
+  background-image: url('https://www.eurodicas.com.br/wp-content/uploads/2020/07/alugar-apartamento-no-algarve.jpg');
+}
+
+.my-carousel-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
