@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.tripalg-bg-1 {
+	background-color: #774a34;
+}
+
+.tripalg-bg {
+	background-color: #774a34 !important;
+	color: white !important;
+}
