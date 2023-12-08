@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PropertiesComponent } from './pages/properties/properties.component';
 import { ReservationModalComponent } from './components/reservation-modal/reservation-modal.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { AboutComponent } from './pages/about/about.component';
+import { ServicesComponent } from './pages/services/services.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
     FooterComponent,
     PropertiesComponent,
     ReservationModalComponent,
+    AboutComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
