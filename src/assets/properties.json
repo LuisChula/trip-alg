@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Tavira, Apartamento T1",
+    "zone": "Tavira",
+    "type": "Apartamento",
+    "typology": "T1",
+    "isFav": true,
+    "shortDescription": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad veniam delectus cum assumenda alias! Maxime, repellat quia? Impedit, harum dolore neque eos eveniet veritatis laboriosam accusantium, laborum in aliquid dolor necessitatibus ullam laudantium fuga ducimus dignissimos delectus officiis culpa praesentium earum a! Cumque ipsam nam minus deleniti ex earum?",
+    "commodities": [
+      "Coffee",
+      "Tea",
+      "Milk"
+    ]
+  },
+  {
+    "title": "Tavira, Apartamento T2",
+    "zone": "Tavira",
+    "type": "Apartamento",
+    "typology": "T2",
+    "isFav": false,
+    "shortDescription": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad veniam delectus cum assumenda alias! Maxime, repellat quia? Impedit, harum dolore neque eos eveniet veritatis laboriosam accusantium, laborum in aliquid dolor necessitatibus ullam laudantium fuga ducimus dignissimos delectus officiis culpa praesentium earum a! Cumque ipsam nam minus deleniti ex earum?",
+    "commodities": [
+      "Coffee",
+      "Tea",
+      "Milk"
+    ]
+  },
+  {
+    "title": "Praia Verde, Moradia T3",
+    "zone": "Praia Verde",
+    "type": "Moradia",
+    "typology": "T3",
+    "isFav": true,
+    "shortDescription": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad veniam delectus cum assumenda alias! Maxime, repellat quia? Impedit, harum dolore neque eos eveniet veritatis laboriosam accusantium, laborum in aliquid dolor necessitatibus ullam laudantium fuga ducimus dignissimos delectus officiis culpa praesentium earum a! Cumque ipsam nam minus deleniti ex earum?",
+    "commodities": [
+      "Coffee",
+      "Tea",
+      "Milk"
+    ]
+  }
+]

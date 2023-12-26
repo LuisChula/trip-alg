@@ -4,36 +4,16 @@
   <h2 class="text-center">Favoritos dos clientes</h2>
   <div class="mt-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
+      <div *ngFor="let property of data; let index = index" class="col">
         <div class="card">
-          <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top" alt="...">
+          <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top"
+            alt="...">
           <div class="card-body">
-            <h5 class="card-title">Monta Rota, Moradia T2</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-              <app-reservation-modal></app-reservation-modal>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Monta Rota, Moradia T2</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-              <app-reservation-modal></app-reservation-modal>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Monta Rota, Moradia T2</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-              <app-reservation-modal></app-reservation-modal>
+            <h5 class="card-title">{{property.title}}</h5>
+            <p class="card-text">{{property.shortDescription}}</p>
+            <app-reservation-modal [index]="index" [title]="property.title"
+              [longDescription]="property.longDescription"
+              [commodities]="property.commodities"></app-reservation-modal>
           </div>
         </div>
       </div>

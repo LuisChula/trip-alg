@@ -1,14 +1,14 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn tripalg-bg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn tripalg-bg" data-bs-toggle="modal" [attr.data-bs-target]="'#exampleModal' + index">
   Ver Mais
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" [id]="'exampleModal' + index" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Monta Rota - Moradia T2</h5>
+        <h5 class="modal-title" id="exampleModalLabel">{{title}}</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -40,22 +40,13 @@
             <div class="mt-4">
               <div>
                 <h5>Descrição</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad veniam delectus cum assumenda
-                  alias!
-                  Maxime, repellat quia? Impedit, harum dolore neque eos eveniet veritatis laboriosam accusantium,
-                  laborum
-                  in
-                  aliquid dolor necessitatibus ullam laudantium fuga ducimus dignissimos delectus officiis culpa
-                  praesentium
-                  earum a! Cumque ipsam nam minus deleniti ex earum?</p>
+                <p>{{longDescription}}</p>
               </div>
 
               <div>
                 <h5>Comodidades</h5>
                 <ul class="list-inline">
-                  <li class="list-inline-item">&bull; Coffee</li>
-                  <li class="list-inline-item">&bull; Tea</li>
-                  <li class="list-inline-item">&bull; Milk</li>
+                  <li *ngFor="let commodity of commodities" class="list-inline-item">&bull; {{commodity}}</li>
                 </ul>
               </div>
 

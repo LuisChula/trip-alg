@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-reservation-modal',
@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./reservation-modal.component.css']
 })
 export class ReservationModalComponent {
+
+  @Input() index!: number;
+  @Input() title: string = "Sem titulo";
+  @Input() longDescription!: string;
+  @Input() commodities!: any[];
+
   selectedImg: number = 0;
 
   setSelectedImg(selected: number) {

@@ -2,7 +2,7 @@
 
   <h2 class="text-center">Procura a sua casa de sonho!</h2>
   <div class="mt-5">
-    <div class="row justify-content-center">
+    <!-- <div class="row justify-content-center">
       <div class="col-md-6">
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -11,36 +11,42 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
     <div class="mt-4">
       <div class="row">
         <div class="col-sm-4">
           <!-- Dropdown 1: Zona -->
           <label for="zonaSelect" class="form-label">Zona</label>
-          <select class="form-select" id="zonaSelect">
-            <option selected disabled>Select Zona</option>
-            <option value="monta-rota">Monta Rota</option>
-            <option value="altura">Altura</option>
+          <select class="form-select" id="zonaSelect" [(ngModel)]="selectedZone" (change)="onDropdownChange()">
+            <option value="Todos">Todos</option>
+            <option value="Castro Marim">Castro Marim</option>
+            <option value="Retur">Retur</option>
+            <option value="Praia Verde">Praia Verde</option>
+            <option value="Altura">Altura</option>
+            <option value="Manta Rota">Manta Rota</option>
+            <option value="Cabanas de Tavira">Cabanas de Tavira</option>
+            <option value="Tavira">Tavira</option>
           </select>
         </div>
         <div class="col-sm-4">
           <!-- Dropdown 2: Tipo -->
           <label for="tipoSelect" class="form-label">Tipo</label>
-          <select class="form-select" id="tipoSelect">
-            <option selected disabled>Select Tipo</option>
-            <option value="moradia">Moradia</option>
-            <option value="apartamento">Apartamento</option>
+          <select class="form-select" id="tipoSelect" [(ngModel)]="selectedType" (change)="onDropdownChange()">
+            <option value="Todos">Todos</option>
+            <option value="Moradia">Moradia</option>
+            <option value="Apartamento">Apartamento</option>
           </select>
         </div>
         <div class="col-sm-4">
           <!-- Dropdown 3: Tipologia -->
           <label for="tipologiaSelect" class="form-label">Tipologia</label>
-          <select class="form-select" id="tipologiaSelect">
-            <option selected disabled>Select Tipologia</option>
-            <option value="t1">T1</option>
-            <option value="t2">T2</option>
-            <option value="t3">T3</option>
-            <option value="t4">T4</option>
+          <select class="form-select" id="tipologiaSelect" [(ngModel)]="selectedTypology" (change)="onDropdownChange()">
+            <option value="Todos">Todos</option>
+            <option value="T1">T1</option>
+            <option value="T2">T2</option>
+            <option value="T3">T3</option>
+            <option value="T4">T4</option>
+            <option value="T5">T5</option>
           </select>
         </div>
       </div>
@@ -49,44 +55,24 @@
 
   <section class="mt-5">
     <h2 class="text-center">Resultados</h2>
+
     <div class="mt-5">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+
+        <div *ngFor="let property of data; let index = index" class="col">
           <div class="card">
             <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top"
               alt="...">
             <div class="card-body">
-              <h5 class="card-title">Monta Rota, Moradia T2</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <app-reservation-modal></app-reservation-modal>
+              <h5 class="card-title">{{property.title}}</h5>
+              <p class="card-text">{{property.shortDescription}}</p>
+              <app-reservation-modal [index]="index" [title]="property.title"
+                [longDescription]="property.longDescription"
+                [commodities]="property.commodities"></app-reservation-modal>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top"
-              alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Monta Rota, Moradia T2</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <app-reservation-modal></app-reservation-modal>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top"
-              alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Monta Rota, Moradia T2</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p>
-              <app-reservation-modal></app-reservation-modal>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
