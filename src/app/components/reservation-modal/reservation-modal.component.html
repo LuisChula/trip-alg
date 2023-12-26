@@ -15,23 +15,16 @@
         <div class="row">
           <div class="col-lg">
             <div>
-              <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg"
+              <img [src]="imgs[selectedImg]"
                 class="rounded img-fluid image" alt="Property">
             </div>
             <div class="mt-3 d-flex justify-content-between">
-              <button type="button" class="btn btn-light" (click)="decrementSelected()"><i class="bi bi-chevron-compact-left"></i></button>
-              <div class="ms-2" [ngClass]="{'rounded border border-dark border-3': selectedImg === 0}" role="button" (click)="setSelectedImg(0)">
-                <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg"
-                  class="rounded img-fluid image" alt="Property">
+              <button type="button" class="btn btn-light me-2" (click)="decrementSelected()"><i class="bi bi-chevron-compact-left"></i></button>
+
+              <div *ngFor="let img of imgs; let index = index" class="me-2" role="button" (click)="setSelectedImg(index)">
+                <img [src]="img" class="rounded img-fluid image" [ngClass]="{'rounded border border-dark border-3': selectedImg === index}" alt="Property">
               </div>
-              <div class="ms-2" [ngClass]="{'rounded border border-dark border-3': selectedImg === 1}" role="button" (click)="setSelectedImg(1)">
-                <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg"
-                  class="rounded img-fluid image" alt="Property">
-              </div>
-              <div class="ms-2 me-2" [ngClass]="{'rounded border border-dark border-3': selectedImg === 2}" role="button" (click)="setSelectedImg(2)">
-                <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg"
-                  class="rounded img-fluid image" alt="Property">
-              </div>
+
               <button type="button" class="btn btn-light" (click)="incrementSelected()"><i class="bi bi-chevron-compact-right"></i></button>
             </div>
           </div>

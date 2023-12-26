@@ -6,14 +6,14 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div *ngFor="let property of data; let index = index" class="col">
         <div class="card">
-          <img src="https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg" class="card-img-top"
+          <img [src]="property.imgs[0]" class="card-img-top"
             alt="...">
           <div class="card-body">
             <h5 class="card-title">{{property.title}}</h5>
             <p class="card-text">{{property.shortDescription}}</p>
             <app-reservation-modal [index]="index" [title]="property.title"
               [longDescription]="property.longDescription"
-              [commodities]="property.commodities"></app-reservation-modal>
+              [commodities]="property.commodities" [allImgs]="property.imgs"></app-reservation-modal>
           </div>
         </div>
       </div>
