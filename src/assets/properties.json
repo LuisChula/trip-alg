@@ -5,12 +5,17 @@
     "type": "Moradia",
     "typology": "T5",
     "isFav": true,
-    "shortDescription": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad veniam delectus cum assumenda alias! Maxime, repellat quia? Impedit, harum dolore neque eos eveniet veritatis laboriosam accusantium, laborum in aliquid dolor necessitatibus ullam laudantium fuga ducimus dignissimos delectus officiis culpa praesentium earum a! Cumque ipsam nam minus deleniti ex earum?",
+    "shortDescription": "Marque ja as suas ferias nesta fantastica moradia com piscina e desfrute da fantastica praia da Manta Rota junto da sua familia ou amigos!",
+    "longDescription": "Marque ja as suas ferias nesta fantastica moradia com piscina e desfrute da fantastica praia da Manta Rota junto da sua familia ou amigos!",
     "commodities": [
-      "Coffee",
-      "Tea",
-      "Milk"
+      "Toalhas e lençóis",
+      "Ar condicionado",
+      "Utensílios básicos de cozinha",
+      "Louças e talheres",
+      "Televisão",
+      "Máquina de lavar",
+      "Wi-Fi",
+      "Máquina de café"
     ],
     "imgs": [
       "assets/manta-rota/moradias/t5/EL022022031/1.jpeg",
@@ -36,12 +41,18 @@
     "type": "Moradia",
     "typology": "T2",
     "isFav": true,
-    "shortDescription": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-    "longDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad veniam delectus cum assumenda alias! Maxime, repellat quia? Impedit, harum dolore neque eos eveniet veritatis laboriosam accusantium, laborum in aliquid dolor necessitatibus ullam laudantium fuga ducimus dignissimos delectus officiis culpa praesentium earum a! Cumque ipsam nam minus deleniti ex earum?",
+    "shortDescription": "Para aqueles que adoram acordar com vista para a serra e um pequeno almoço tranquilo, esta moradia têm tudo o que precisa para umas ferias de sonho junto da natureza. Reserve ja as suas noites de paz e sossego em Corte do Gago!",
+    "longDescription": "Para aqueles que adoram acordar com vista para a serra e um pequeno almoço tranquilo, esta moradia têm tudo o que precisa para umas ferias de sonho junto da natureza. Reserve ja as suas noites de paz e sossego em Corte do Gago!",
     "commodities": [
-      "Coffee",
-      "Tea",
-      "Milk"
+      "Toalhas e lençóis",
+      "Ar condicionado",
+      "Utensílios básicos de cozinha",
+      "Louças e talheres",
+      "Televisão",
+      "Máquina de lavar",
+      "Wi-Fi",
+      "Máquina de café",
+      "Piscina partilhada"
     ],
     "imgs": [
       "assets/castro-marim/moradias/t2/LM042022033/1.jpg",
