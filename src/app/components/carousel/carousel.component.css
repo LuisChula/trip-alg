@@ -1,13 +1,13 @@
 .bg-img-1 {
-  background-image: url('https://www.kayak.pt/rimg/kimg/d2/44/94b24aa24c1b791f.jpg?width=1366&height=768&crop=true');
+  background-image: url('../../../assets/imgs/1.jpeg');
 }
 
 .bg-img-2 {
-  background-image: url('https://www.tagusnovo.com/thumb/full/program/117/117-program-01.jpg');
+  background-image: url('../../../assets/imgs/2.jpg');
 }
 
 .bg-img-3 {
-  background-image: url('https://www.eurodicas.com.br/wp-content/uploads/2020/07/alugar-apartamento-no-algarve.jpg');
+  background-image: url('../../../assets/imgs/3.jpg');
 }
 
 .my-carousel-image {
