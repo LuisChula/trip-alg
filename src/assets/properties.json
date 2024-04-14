@@ -68,5 +68,38 @@
       "assets/castro-marim/moradias/t2/LM042022033/11.jpg",
       "assets/castro-marim/moradias/t2/LM042022033/12.jpg"
     ]
+  },
+  {
+    "title": "Castro Marim, Moradia T1",
+    "zone": "Castro Marim",
+    "type": "Moradia",
+    "typology": "T1",
+    "isFav": true,
+    "shortDescription": "Para aqueles que adoram acordar com vista para a serra e um pequeno almoço tranquilo, esta moradia têm tudo o que precisa para umas ferias de sonho junto da natureza. Reserve ja as suas noites de paz e sossego em Sentinela!",
+    "longDescription": "Para aqueles que adoram acordar com vista para a serra e um pequeno almoço tranquilo, esta moradia têm tudo o que precisa para umas ferias de sonho junto da natureza. Reserve ja as suas noites de paz e sossego em Sentinela!",
+    "commodities": [
+      "Toalhas e lençóis",
+      "Ar condicionado",
+      "Utensílios básicos de cozinha",
+      "Louças e talheres",
+      "Televisão",
+      "Máquina de lavar",
+      "Wi-Fi",
+      "Máquina de café"
+    ],
+    "imgs": [
+      "assets/castro-marim/moradias/t2/LM042022033/1.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/2.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/3.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/4.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/5.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/6.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/7.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/8.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/9.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/10.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/11.jpg",
+      "assets/castro-marim/moradias/t2/LM042022033/12.jpg"
+    ]
   }
 ]
