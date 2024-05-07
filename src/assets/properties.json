@@ -36,42 +36,6 @@
     ]
   },
   {
-    "title": "Altura, Moradia T2",
-    "zone": "Altura",
-    "type": "Moradia",
-    "typology": "T2",
-    "isFav": true,
-    "shortDescription": "Marque ja as suas ferias nesta fantastica moradia com piscina e desfrute da fantastica praia de Altura junto da sua familia ou amigos!",
-    "longDescription": "Marque ja as suas ferias nesta fantastica moradia com piscina e desfrute da fantastica praia de Altura junto da sua familia ou amigos!",
-    "commodities": [
-      "Toalhas e lençóis",
-      "Ar condicionado",
-      "Utensílios básicos de cozinha",
-      "Louças e talheres",
-      "Televisão",
-      "Máquina de lavar",
-      "Wi-Fi",
-      "Máquina de café"
-    ],
-    "imgs": [
-      "assets/manta-rota/moradias/t5/EL022022031/1.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/2.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/3.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/4.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/5.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/6.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/7.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/8.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/9.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/10.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/11.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/12.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/13.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/14.jpeg",
-      "assets/manta-rota/moradias/t5/EL022022031/15.jpeg"
-    ]
-  },
-  {
     "title": "Castro Marim, Moradia T2",
     "zone": "Castro Marim",
     "type": "Moradia",
